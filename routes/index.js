@@ -1,12 +1,12 @@
 const express = require('express');
 
 const router = express.Router();
-const homeContoller = require('../controllers/home_controller');
+const homeController = require('../controllers/home_controller');
 
 console.log("router loaded");
 
 
-router.get('/', homeContoller.home );
+router.get('/', homeController.home );
 router.use('/users', require('./users'));
 
 //for any further routes, access from here
