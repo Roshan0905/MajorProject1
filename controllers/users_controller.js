@@ -1,5 +1,5 @@
-const user = require('../models/user');
 const User = require('../models/user');
+
 
 module.exports.profile = function(req, res){
     //  return res.end('<h1>Users Profile</h1>');
